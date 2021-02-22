@@ -29,64 +29,32 @@ public class Pokemon {
         return pokedexNumber;
     }
 
-    public void setPokedexNumber(int pokedexNumber) {
-        this.pokedexNumber = pokedexNumber;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getGeneration() {
         return generation;
     }
 
-    public void setGeneration(int generation) {
-        this.generation = generation;
-    }
-
     public String getSpecies() {
         return species;
-    }
-
-    public void setSpecies(String species) {
-        this.species = species;
     }
 
     public Type getType1() {
         return type1;
     }
 
-    public void setType1(Type type1) {
-        this.type1 = type1;
-    }
-
     public Type getType2() {
         return type2;
-    }
-
-    public void setType2(Type type2) {
-        this.type2 = type2;
     }
 
     public int getHp() {
         return hp;
     }
 
-    public void setHp(int hp) {
-        this.hp = hp;
-    }
-
     public Status getStatus() {
         return status;
-    }
-
-    public void setStatus(Status status) {
-        this.status = status;
     }
 
     @Override
